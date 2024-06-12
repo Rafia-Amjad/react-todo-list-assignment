@@ -1,0 +1,68 @@
+.app {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input[type="text"], input[type="date"], select {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: grey;
+}
+
+li.overdue span {
+  color: palegreen;
+}
+
+.priority-high {
+  color: red;
+}
+
+.priority-medium {
+  color: orange;
+}
+
+.priority-low {
+  color: green;
+}
+
+.search-and-filter {
+  margin: 20px 0;
+}
+
+.due-date {
+  margin-left: 10px;
+  color: blue;
+}
